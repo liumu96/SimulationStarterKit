@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/build/_deps/libigl-src/include",
+                "${workspaceFolder}/build/_deps/eigen-src",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/shared/include",
+                "${workspaceFolder}/build/_deps/glfw-src/include",
+                "${workspaceFolder}/build/_deps/imgui-src",
+                "${workspaceFolder}/build/_deps/libigl_imgui_fonts-src",
+                "${workspaceFolder}/shared/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
